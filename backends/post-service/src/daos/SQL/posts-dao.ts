@@ -58,6 +58,7 @@ export async function getPostsByUserId(id: number):Promise<Post[]>{
 
 
 
+
 export async function getPostById(id: number):Promise<Post>{
     let client:PoolClient;
     try{
